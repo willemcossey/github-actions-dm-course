@@ -1,0 +1,13 @@
+name: print input at merge time
+
+on:
+  push:
+    branches:
+      - default
+
+jobs:
+  use-my-action:
+    runs-on: 
+    steps:
+      - name: run my action
+        uses: .github/actions/my-action
