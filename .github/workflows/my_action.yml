@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: run my action
-        uses: .github/actions/my-action
+        uses: ./.github/actions/my-action
 
