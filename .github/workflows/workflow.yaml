@@ -24,4 +24,4 @@ jobs:
           context: exercise_3
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/dmghcicdapp:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/dmghcicdapp:latest
